@@ -11,6 +11,7 @@ class ChosenWidgetMixin(object):
         js = (
             "%s%s" % (settings.STATIC_URL, "django-chosen/before-chosen.js"),
             "%s%s" % (settings.STATIC_URL, "chosen/chosen.jquery.min.js"),
+            "%s%s" % (settings.STATIC_URL, "jquery/jquery.migrate.min.js"),
             "%s%s" % (settings.STATIC_URL, "django-chosen/after-chosen.js"),
         )
         css = {
